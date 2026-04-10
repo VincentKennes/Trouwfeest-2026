@@ -199,7 +199,7 @@ body {
 
 .card.tenth {
   aspect-ratio: 2 / 1;
-  background-image: url("./scedule.PNG");
+  background-image: url("./time scedule.png");
   background-size: contain;
 }
 
@@ -221,9 +221,9 @@ body {
   font-size: clamp(18px, 3vw, 26px);
   color: #5a6b4f;
   }
-.card.Thirteen{
+.card.Thirteen {
   aspect-ratio: 2 / 1;
-  background-image: url("./scedule.PNG"); /* or .jpg */
+  background-image: url("./schedule.PNG"); /* or .jpg */
   background-size: contain;
 }
 
