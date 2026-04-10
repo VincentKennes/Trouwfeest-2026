@@ -222,9 +222,17 @@ body {
   color: #5a6b4f;
 }
 .card.Thirteen {
+  width: 100%;
   aspect-ratio: 2 / 1;
-  background-image: url("./scedule.PNG");
+
+  background-image: url("./schedule.PNG");
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: block;
+
+  margin-left: 20px; /* 👈 this is the clean controlled shift */
 }
 .card.fourtheen {
   aspect-ratio: 2 / 1;
