@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wedding Music Player</title>
+
+  <!-- ✅ Playfair Display font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<audio id="music">
+  <source src="music.mp3" type="audio/mpeg" />
+</audio>
+
+<div class="container">
+
+  <div class="card first"></div>
+  <div class="card second"></div>
+
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfuN8BD8LpYOWM5Nl1jRuTilapmXZFJXRsrE3FMrzCl5MnYEw/viewform?usp=dialog"
+     target="_blank"
+     class="card rsvp"></a>
+
+  <div class="card third"></div>
+  <div class="card fourth"></div>
+  <div class="card"></div>
+
+  <div class="card fifth">
+
+    <div class="player">
+
+      <div class="progress-wrapper">
+
+        <svg viewBox="0 0 120 140" class="flower-svg">
+
+          <path
+            d="M60 110 C20 80 10 40 35 25 C50 15 60 30 60 30 C60 30 70 15 85 25 C110 40 100 80 60 110 Z"
+            stroke="rgba(0,0,0,0.15)"
+            stroke-width="5"
+            fill="none"
+          />
+
+          <path
+            id="flowerProgress"
+            d="M60 110 C20 80 10 40 35 25 C50 15 60 30 60 30 C60 30 70 15 85 25 C110 40 100 80 60 110 Z"
+            stroke="pink"
+            stroke-width="5"
+            fill="none"
+            stroke-linecap="round"
+          />
+        </svg>
+
+        <button id="playBtn">▶</button>
+      </div>
+
+      <input type="range" id="volume" min="0" max="1" step="0.01" value="0.7"/>
+
+    </div>
+
+    <div class="card third2"></div>
+
+    <!-- ✅ tekst blok -->
+    <div class="wedding-info-text">
+      <div>About the wedding</div>
+      <div>Residence Fam. Kennes</div>
+    </div>
+
+    <div class="card zeventh"></div>
+
+    <a href="https://maps.app.goo.gl/cBRbjW2cRLHypAZ7A"
+       target="_blank"
+       class="card eight"></a>
+
+    <div class="card third3"></div>
+    <div class="card ninethremove"></div>
+    <div class="card tenthremove"></div>
+    <div class="card third4remove"></div>
+
+    <div class=""></div>
+    <div class="Dresscode">
+      <div>Dress code and schedule</div>
+    </div>
+    <div class="card Thirteen"></div>
+    <div class="card twelve"></div>
+
+    <div class="card third5"></div>
+    <div class="aboutus-text">about us</div>
+        <div class="card fourtheen"></div>
+    <div class="card fiftheen"></div>
+
+    <div class="card third6"></div>
+
+    <div class="our-gift-advice-text">Our gift advice</div>
+
+    <div class="card gift"></div>
+
+    <div class="thankyou-text">Thank you</div>
+
+    <div class="card zeventeen"></div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
