@@ -223,8 +223,14 @@ body {
   }
 .card.Thirteen {
   aspect-ratio: 2 / 1;
+  width: 100%;
+  min-height: 100px; /* extra veiligheid */
   background-image: url("./scedule.PNG");
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  transform: translateX(40px);
 }
 
 .card.fourtheen {
