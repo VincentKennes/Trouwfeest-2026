@@ -223,6 +223,9 @@ body {
   }
 .card.Thirteen {
   aspect-ratio: 2 / 1;
+  width: 100%;
+  min-height: 100px; /* extra veiligheid */
+
   background-image: url("./schedule.PNG");
   background-size: contain;
   background-repeat: no-repeat;
