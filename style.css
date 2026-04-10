@@ -223,10 +223,12 @@ body {
   }
 .card.Thirteen {
   aspect-ratio: 2 / 1;
-  background-image: url("./schedule.PNG"); /* or .jpg */
+  background-image: url("./schedule.PNG");
   background-size: contain;
-  align-self: flex-start;
-  margin-right: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  transform: translateX(40px);
 }
 
 .card.fourtheen {
