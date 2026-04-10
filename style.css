@@ -74,19 +74,19 @@ body {
 /* KLEINE BLOKKEN */
 .card.third {
   aspect-ratio: 4 / 1;
-  background-image: url("./nametag.PNG");
+  background-image: url("./nametag.png");
   background-size: contain;
 }
 
 .card.third1 {
   aspect-ratio: 4 / 1;
-  background-image: url("./nametag.PNG");
+  background-image: url("./nametag.png");
   background-size: contain;
 }
 
 .card.third2 {
   aspect-ratio: 4 / 1;
-  background-image: url("./nametag.PNG");
+  background-image: url("./nametag.png");
   background-size: contain;
 }
 
@@ -108,13 +108,13 @@ body {
 
 .card.third3 {
   aspect-ratio: 4 / 1;
-  background-image: url("./nametag.PNG");
+  background-image: url("./nametag.png");
   background-size: contain;
 }
 
 .card.third4 {
   aspect-ratio: 4 / 1;
-  background-image: url("./nametag.PNG");
+  background-image: url("./nametag.png");
   background-size: contain;
 }
 /* TEXT BLOCK */
@@ -127,13 +127,13 @@ body {
 
 .card.third5 {
   aspect-ratio: 4 / 1;
-  background-image: url("./nametag.PNG");
+  background-image: url("./nametag.png");
   background-size: contain;
 }
 
 .card.third6 {
   aspect-ratio: 4 / 1;
-  background-image: url("./nametag.PNG");
+  background-image: url("./nametag.png");
   background-size: contain;
 }
 
