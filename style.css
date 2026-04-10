@@ -223,7 +223,7 @@ body {
   }
 .card.Thirteen {
   aspect-ratio: 2 / 1;
-  background-image: url("./scedule.png"); /* or .jpg */
+  background-image: url("./schedule.PNG"); /* or .jpg */
   background-size: contain;
 }
 
@@ -247,7 +247,7 @@ body {
 
 .card.gift {
   aspect-ratio: 2 / 1;
-  background-image: url("./card hint.PNG");
+  background-image: url("./card hint.png");
   background-size: contain;
   margin-top: 0px;
   margin-bottom: 0px;
