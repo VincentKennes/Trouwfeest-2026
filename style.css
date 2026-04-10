@@ -52,34 +52,41 @@ body {
   background-size: cover;
 }
 
+/* TEXT BLOCK */
+.RSVPtext {
+  text-align: center;
+  font-size: clamp(18px, 3vw, 26px);
+  color: #5a6b4f;
+  margin: 20px 0;
+}
 .card.rsvp {
-  aspect-ratio: 16 / 4;
+  aspect-ratio: 8 / 2;
   background-image: url("./rsvp.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 
-  width: 90%;
-  max-width: 400px;
+  width: 80%;
+  max-width: 200px;
   margin: 0 auto;
 }
 
 /* KLEINE BLOKKEN */
 .card.third {
   aspect-ratio: 4 / 1;
-  background-image: url("./nametag.png");
+  background-image: url("./nametag.PNG");
   background-size: contain;
 }
 
 .card.third1 {
   aspect-ratio: 4 / 1;
-  background-image: url("./nametag.png");
+  background-image: url("./nametag.PNG");
   background-size: contain;
 }
 
 .card.third2 {
   aspect-ratio: 4 / 1;
-  background-image: url("./nametag.png");
+  background-image: url("./nametag.PNG");
   background-size: contain;
 }
 
@@ -101,13 +108,13 @@ body {
 
 .card.third3 {
   aspect-ratio: 4 / 1;
-  background-image: url("./nametag.png");
+  background-image: url("./nametag.PNG");
   background-size: contain;
 }
 
 .card.third4 {
   aspect-ratio: 4 / 1;
-  background-image: url("./nametag.png");
+  background-image: url("./nametag.PNG");
   background-size: contain;
 }
 /* TEXT BLOCK */
@@ -120,21 +127,21 @@ body {
 
 .card.third5 {
   aspect-ratio: 4 / 1;
-  background-image: url("./nametag.png");
+  background-image: url("./nametag.PNG");
   background-size: contain;
 }
 
 .card.third6 {
   aspect-ratio: 4 / 1;
-  background-image: url("./nametag.png");
+  background-image: url("./nametag.PNG");
   background-size: contain;
 }
 
-.card.fourth {
-  aspect-ratio: 4 / 1;
-  background-image: url("./before.png");
-  background-size: contain;
-}
+.scrolling{
+  text-align: center;
+  font-size: clamp(18px, 3vw, 26px);
+  color: #5a6b4f;
+  }
 
 /* PLAYER */
 .card.fifth {
@@ -216,7 +223,7 @@ body {
   }
 .card.Thirteen {
   aspect-ratio: 2 / 1;
-  background-image: url("./scedule.PNG"); /* or .jpg */
+  background-image: url("./scedule.png"); /* or .jpg */
   background-size: contain;
 }
 
@@ -240,7 +247,7 @@ body {
 
 .card.gift {
   aspect-ratio: 2 / 1;
-  background-image: url("./card hint.png");
+  background-image: url("./card hint.PNG");
   background-size: contain;
   margin-top: 0px;
   margin-bottom: 0px;
